@@ -12,6 +12,7 @@ database.ini
 *.userosscache
 *.sln.docstates
 .DS_Store
+empirical/data/raw/credit_card_data.csv
 *.csv
 
 # Ignore virtual environment: folder,
