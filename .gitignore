@@ -12,6 +12,7 @@ database.ini
 *.userosscache
 *.sln.docstates
 .DS_Store
+*.csv
 
 # Ignore virtual environment: folder,
 # A common name for a virtual environment directory.  It is a standard directory name and is not hidden by default.
