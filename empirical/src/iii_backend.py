@@ -55,6 +55,7 @@ class FraudDetection(BaseModel):
     newbalancedest:float
     isflaggedfraud:float
 
+@app.post('/predict')
 def predict(data: FraudDetection):
 
     features = np.array([[data.step, data.types, data.amount, data.oldbalanceorig, data.newbalanceorig, data.oldbalancedest, data.newbalancedest, data.isflaggedfraud]])
