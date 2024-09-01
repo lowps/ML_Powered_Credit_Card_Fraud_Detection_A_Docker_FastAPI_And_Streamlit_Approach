@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.helpers import get_directory_name
 from utils.logger import Logger
 
-cwd_path = get_directory_name('/Users/ericklopez/Desktop/ML_Powered_Credit_Card_Fraud_Detection_A_Docker_FastAPI_And_Streamlit_Approach/empirical/src/ii_backend.py')
+cwd_path = get_directory_name('/Users/ericklopez/Desktop/ML_Powered_Credit_Card_Fraud_Detection_A_Docker_FastAPI_And_Streamlit_Approach/empirical/src/iii_backend.py')
 inspector_gadget = Logger(cwd_path)
 
 file_path = '/Users/ericklopez/Desktop/ML_Powered_Credit_Card_Fraud_Detection_A_Docker_FastAPI_And_Streamlit_Approach/empirical/data/final/RandomForestClassifier.pkl'
